@@ -8,7 +8,7 @@
 
     public class KeyboardUtils {
 
-        public static void <b>hideKeyboard</b>(Activity activity) {
+        public static void hideKeyboard(Activity activity) {
             View view = activity.findViewById(android.R.id.content);
             if (view != null) {
                 InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
